@@ -7,6 +7,16 @@
     class Exemplo = _Exemplo with _$Exemplo;
 
     abstract class _Exemplo with Store { }
+    
+    OBS: To create a Live Template:
+    
+        import 'package:mobx/mobx.dart';
+        
+        part '$file_name$.g.dart';
+        
+        class $file_name$ = _$file_name$ with _$$$file_name$;
+        
+        abstract class _$file_name$ with Store { }
 
 #MobX Flutter commands:
 
