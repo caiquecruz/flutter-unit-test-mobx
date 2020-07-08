@@ -1,4 +1,4 @@
-#Template para geração do código "exemplo.g.dart" :
+# Template para geração do código "exemplo.g.dart" :
 
     import 'package:mobx/mobx.dart';
 
@@ -18,7 +18,7 @@
         
         abstract class _$file_name$ with Store { }
 
-#MobX Flutter commands:
+# MobX Flutter commands:
 
     Gerar arquivo exemplo.g.dart para utilização do @observable e @action:
     
@@ -30,10 +30,10 @@
     
         flutter pub run build_runner watch
 
-#Rodar testes:
+# Rodar testes:
 
     flutter test
         - Irá executar todos os testes inclusos no arquivo widget_test.dart
         
-#References:
+# References:
     https://medium.com/flutterando/testes-unit%C3%A1rios-com-mobx-d843314368f1
